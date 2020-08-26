@@ -2,7 +2,7 @@ apply plugin: 'groovy'
 apply plugin: 'idea'
 
 repositories {
-    maven { url "https://repo1.maven.org/maven" }
+    mavenCentral ()
 }
 
 dependencies {
